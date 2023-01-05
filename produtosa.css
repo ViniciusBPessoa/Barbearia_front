@@ -1,5 +1,6 @@
 .cabeca{
     background: #BBBBBB;
+    padding: 20px 0;
 }
 
 nav li{
@@ -13,4 +14,16 @@ nav a{
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
+}
+
+.lista{
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+.divca{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
 }
