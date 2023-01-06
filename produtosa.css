@@ -37,6 +37,7 @@ nav a:hover{
     width: 940px;
     margin: 0 auto;
     margin-top: 20px;
+    margin-bottom: 10px;
 }
 .lista_principal li{
     display: inline-block;
@@ -47,10 +48,16 @@ nav a:hover{
     padding: 30px 20px;
     box-sizing: border-box;
 
+
+
     border-color: black;
     border-width: 2px;
     border-style: solid;
     border-radius: 10px;
+}
+
+p{
+    font-size: 20px;
 }
 
 h2 {
@@ -74,4 +81,17 @@ h2 {
 
 .lista_principal li:hover h2 {
     font-size: 30px;
+    color: #e68200;
+}
+
+.rodape{
+    text-align: center;
+    background: url("Imagens/bg.jpg");
+    padding: 40px 0;
+}
+
+.coper{
+    color: white;
+    text-align: 13px;
+    margin-top: 20px;
 }
